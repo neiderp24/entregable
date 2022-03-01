@@ -2,7 +2,7 @@ import React,{ useState } from 'react';
 import quotes from "../quotes.json";
 import Button from './Button';
 const random = () => Math.floor(Math.random() * quotes.length);
-const colors = ["#44344f","#730FB6","#8EEC00","#00F2FF","#1900FF","#CE1A1A","#EBD700","#E300EB"]
+const colors = ["#44344f","#730FB6","#8EEC00","#00F2FF","#1900FF","#CE1A1A","#EBD700","#E300EB","#AA2AAE","#2817BD"]
 const QuoteBox = () => {
     const [ quote, setQuote] = useState(quotes[random()]);
     const changeQuote = () =>{
